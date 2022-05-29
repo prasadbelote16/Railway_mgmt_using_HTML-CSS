@@ -1,0 +1,100 @@
+{
+ margin:0px;
+ padding:0px;
+}
+.main{
+    width: 1280px;
+    background: url("New Project.jpg");
+    height: 720px;
+    background-position: center;
+    background-size: cover;
+
+}
+.navbar{
+    display: flex;
+    margin: auto;
+    justify-content: right;
+}
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+
+}
+ul{
+    float:left;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+ul li {
+    list-style: none;
+    margin-right: 62px ;
+    margin-top: 27px;
+    font-size: 14px;
+
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: "Bahnschrift";
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
+    font-size: medium;
+
+}
+ul li a:hover{
+    color: red;
+}
+
+.form{
+   width: 250px;
+    height: 300px;
+    background: linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%);
+    position: absolute;
+    top: 200px;
+    right: 850px;
+
+    border-radius: 10px;
+    padding: 25px;
+
+}
+ h2{
+
+    color: white;
+}
+ .link{
+     color: white;
+     font-family: "Cambria Math";
+ }
+ .content h1{
+     width: 1200px;
+     height: auto;
+     margin: auto;
+     color: lightgoldenrodyellow;
+     position: relative;
+     font-family: "Cambria Math";
+     font-size: 60px;
+     padding-left: 650px;
+
+     letter-spacing: 2px;
+
+ }
+ .content h2{
+     width: 1200px;
+     height: auto;
+     margin: auto;
+     color: lightgoldenrodyellow;
+     position: relative;
+     font-family: "Cambria Math";
+     font-size: 60px;
+     padding-left: 620px;
+     letter-spacing: 2px;
+
+ }
+ .icon{
+     padding-left: 720px;
+     top: 50px;
+
+ }
